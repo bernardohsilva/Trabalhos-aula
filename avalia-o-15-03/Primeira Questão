@@ -1,0 +1,82 @@
+// Adicione ao script 5 variáveis aluno e preencha com o nome dos alunos que estão fazendo a prova //
+
+aluno1 = "Francisco Alexandre"
+aluno2 = "Rafael Kohls"
+aluno3 = "Anderson Vieira"
+aluno4 = "David Basso"
+aluno5 = "Bernado Hamilton"
+
+console.log("Nosso grupo que está fazendo a prova:")
+
+console.log(aluno1, aluno2, aluno3, aluno4, aluno5)
+
+// Adicione ao script 5 variáveis do tipo inteiro e mostre via console os valores salvos nestas variáveis //
+
+v = "1"
+w = "2"
+x = "3"
+y = "4"
+z = "5"
+
+console.log("Valores salvos nas variavéis:")
+
+console.log(v, w , x, y, z)
+
+// Adicione ao script 5 variáveis do tipo booleana e adicione valores true ou false. Ao final mostre para o usuário os valores de cada variável. //
+
+lampada1="mastigada"
+lampada2="mastigada"
+lampada3="msatigada"
+lampada4="mastigada"
+lampada5="mastigada"
+
+pesquisa1= true
+pesquisa2= false
+pesquisa3= false
+pesquisa4= true
+pesquisa5= true
+
+v1 = isAtivo= pesquisa1
+v2 = isAtivo= pesquisa2
+v3 = isAtivo= pesquisa3
+v4 = isAtivo= pesquisa4
+v5 = isAtivo= pesquisa5
+
+const verificar =function(ligada, v){
+    if(v == true){
+        return "Caso: "+ ligada +", falsa"
+    }
+    else{
+        return "Caso: "+ ligada +", verdadeira"
+    }
+}
+
+console.log(verificar(lampada1, v1))
+console.log(verificar(lampada2, v2))
+console.log(verificar(lampada3, v3))
+console.log(verificar(lampada4, v4))
+console.log(verificar(lampada5, v5))
+
+// Adicione ao script 5 variáveis para armazenar os salários de 5 funcionários. Ao final mostre ao usuário os valores de cada variável. //
+
+funcionário1 = "R$ 1,700"
+funcionário2 = "R$ 3,100"
+funcionário3 = "R$ 2,500" 
+funcionário4 = "R$ 660"
+funcionário5 = "R$ 7,500"
+
+console.log("Salátios dos 5 funcionários")
+
+console.log(funcionário1, funcionário2, funcionário3, funcionário4, funcionário5)
+
+// Adicione ao script 5 constantes com tipos de dados diferentes (inteiro, real, caracteres ou booleano). //
+
+const ex1 = 'nicolas'
+const ex2 = '43'
+const ex3 = '7'
+const ex4 = 'nicolas'
+const ex5 = '9.29'
+
+console.log(ex1 == ex4);
+console.log(ex2 * ex5);
+console.log(ex2 * ex3)
