@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/case.css">
+    <title>Descubra o preço do produto</title>
+</head>
+<body>
+    <header>
+    <h2>descubra o preço dos produtos</h2>
+    </header>
+    <div class="container1">
+        <h3>lista 1</h3>
+        <div class= "div-produtos1">
+            <label>uva</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos('uva')">
+            <br>
+            <label>laranja</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos('laranja')">
+            <br>
+            <label>maçã</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos('maçã')">
+            <br>
+            <label>morango</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos('morango')">
+            <br>
+            <label>vergamota</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos('vergamota')">
+            <br>
+            <label>manga</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos('manga')">
+            <br>
+            <label>abacate</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos('abacate')">
+        </div>
+        <br>
+        <div class="div-resultado1">
+        <label id="resultado"></label>
+    </div>
+    </div>
+    <div class="container2">
+        <h3>lista 2</h3>
+        <div class="div-produtos2">
+            <label>uva</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos1('Uva')">
+            <br>
+            <label>laranja</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos1('Laranja')">
+            <br>
+            <label>maçã</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos1('Maçã')">
+            <br>
+            <label>morango</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos1('Morango')">
+            <br>
+            <label>vergamota</label>
+            <input type="radio" name="fruta" onclick="selecionarProdutos1('Vergamota')">   
+        </div>
+        <br>
+        <div class="div-resultado2">
+        <label id="resultado2"></label>
+    </div>
+    </div>
+    <footer>
+        <ul>
+            <li> mercadinho do SENAI </li>
+            <li> só alimentos saudáveis </li>
+        </ul>
+    </footer>
+    <script src="./js/case.js"></script>
+</body>
+</html>

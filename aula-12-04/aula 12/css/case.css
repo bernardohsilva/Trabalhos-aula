@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+header{
+    color: #fff;
+    background-color: rgb(187, 9, 119);
+    padding: 24px;
+}
+footer{
+    background-color: rgb(223, 219, 16);
+    color: white;
+    padding: 38px;
+}
+.container1{
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 60%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 32px;
+    padding: 16px;
+    background-color: rgb(16, 184, 128);
+    color: rgb(255, 255, 255);
+}
+.container2{
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 60%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 32px;
+    padding: 16px;
+    background-color: rgb(16, 184, 128);
+    color: rgb(255, 255, 255);
+}
+
+.div-produtos1{
+    border: 3px solid rgb(16, 184, 128);
+    border-radius: 1px;
+}
+.div-resultado1{
+    border: 2px solid rgb(16, 184, 128);
+    border-radius: 16px;
+}
+.div-produtos2{
+    border: 3px solid rgb(16, 184, 128);
+    border-radius: 1px;
+}
+.div-resultado2{
+    border: 2px solid rgb(16, 184, 128);
+    border-radius: 16px;
+}
