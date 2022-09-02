@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+header{
+    background-color: rgb(6, 70, 247);
+    padding: 20px;
+}
+header h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+footer{
+    background-color: rgb(17, 88, 221);
+    padding: 20px;
+}
+footer li{
+    color: rgb(255, 255, 255)
+}
+.div-product{
+    margin: auto;
+    width: 500px;
+}
+.div-product{
+    width: 500px;
+}
+.container{
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid darkviolet
+    
+}
+.div-title{
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgb(0, 204, 255);
+    border-radius: 15px;
+}
+.div-title h2{
+    color: aliceblue;
+    text-align: center;
+}
+.div-question{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.div-options{
+    margin-top: 8px;
+    display: flex;
+    font-size: small;
+    border: 2px solid darkviolet;
+    border-radius: 25px;
+    padding: 5px;
+}
+.div-options label{
+    margin-right: 5px;
+}
+@media screen and (max-width: 650px){
+    .div-options{
+        display: block;
+    }
+}
+.div-options label{
+    margin-right: 5px;
+}
+.div-options button{
+    width: 100%;
+    background-color: rgb(0, 204, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.div-options button:hover{
+    background-color: bisque;
+    
+}

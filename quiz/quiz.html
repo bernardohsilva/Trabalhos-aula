@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/coisa.css">
+    <link rel="shortcut icon" href="./img/fnaf.png" type="image/x-icon" />
+    <title>Quiz do Five Night at Freddy's</title>
+</head>
+<body>
+    <header id="Quiz">
+    <h1>Quiz do Five Night at Freddy's</h1>
+    <h2>Fazbear Pizzaria</h2>
+    </header>
+    <img id="titulo" src="./img/fnaf.png"/>
+    <p>Um quiz sobre o universo de "FNAF" (Five Night at Freddy's), vamos ver se você consegue</p>
+    <h1 id="Primeira">Primeira Noite</h1>
+    <p>Quantos jogos da franquia existe?</p>
+    <header id="FNAF1">
+    <select id="SCOTT1">
+        <option>Selecione a resposta</option> 
+        <option value="Certo">possui 9!</option>
+        <option value="Errado">possui 10!</option>
+        <option value="Errado">possui 7!</option>
+       </select>
+       <img id="SCOTT1" src="./img/FNaFreddy.png"/>
+    </header>
+       <script>
+           let pontos = 0
+        const select1 = document.getElementById("SCOTT1");
+        select1.addEventListener("change", setSCOTT1);
+
+        function setSCOTT1() {
+            if (select1.value == "Certo") {
+              alert("Acertou!");
+            } else if (select1.value == "Errado") {
+                alert("Errou!");
+            } else if (select1.value == "Errado") {
+                alert("Errou!");
+            }
+        }  
+      </script>
+      <h1>Segunda noite</h1>
+      <P>Quem é o homem da imagem?</P>
+      <header id="FNAF2">
+      <select id="SCOTT2">
+        <option>Selecione a resposta</option> 
+        <option value="certo">homem de roxo!</option>
+        <option value="Errado">policial roxo!</option>
+        <option value="Errado1">animatrônico roxo!</option>
+       </select>
+       <img id="SCOTT2" src="./img/Purple_man.png"/>
+      </header>
+       <script>
+        const select2 = document.getElementById("SCOTT2");
+        select2.addEventListener("change", setSCOTT2);
+
+        function setSCOTT2() {
+
+            if (select2.value == "certo") {
+                alert("certou!");
+            } else if (select2.value == "Errado") {
+                alert("errou!");
+            } else if (select2.value == "Errado1") {
+                alert("errou!");
+            }
+        }
+      </script>
+      <h1>Terceira noite</h1>
+      <p>Quem é o criador de FNAF?</p>
+      <header id="FNAF3">
+      <select id="SCOTT3">
+        <option>Selecione a resposta</option> 
+        <option value="Errado">Scott batista!</option>
+        <option value="Certo">Scott Cawthon!</option>
+        <option value="Errado">Cawthon Scott!</option>
+    </select>
+    <img id="SCOTT3" src="./img/scott_cawthon.png">
+</header>
+        <script>
+            const select3 = document.getElementById("SCOTT3");
+            select3.addEventListener("change", setSCOTT3);
+    
+            function setSCOTT3() {
+
+                if (select3.value == "Errado") {
+                    alert("Errou!");
+                 
+                } else if (select3.value == "Certo") {
+                    alert("Acertou!");
+                }  else if (select3.value == "Certo") {
+                    alert("Acertou!");
+                }
+            }
+        </script>
+      <h1>Quarta noite</h1>
+      <p>Qual alma está presa no spring trap?</p>
+      <header id="FNAF4">
+      <select id="SCOTT4">
+        <option>Selecione a resposta</option> 
+        <option value="Errado">Michael Afton!</option>
+        <option value="Certo">William Afton!</option>
+        <option value="Errado">Elizabeth Afton!</option>
+    </select>
+    <img id="SCOTT4" src="./img/spring-trap.png">
+</header>
+        <script>
+            const select4 = document.getElementById("SCOTT4");
+            select4.addEventListener("change", setSCOTT4);
+    
+            function setSCOTT4() {
+
+                if (select4.value == "Errado") {
+                    alert("Errou!");
+                 
+                } else if (select4.value == "Certo") {
+                    alert("Acertou!");
+
+                } else if (select4.value == "Certo") {
+                    alert("Acertou!");
+                
+            }
+        }
+    </script>
+     <h1>Quinta noite</h1>
+     <p>Quantos animatronics tem no ennard?</p>
+     <header id="FNAF5">
+     <select id="SCOTT5">
+       <option>Selecione a resposta</option> 
+       <option value="Errado">7!</option>
+       <option value="Errado">6!</option>
+       <option value="Certo">4!</option>
+   </select>
+   <img id="SCOTT5" src="./img/Ennard.png">
+</header>
+       <script>
+           const select5 = document.getElementById("SCOTT5");
+           select5.addEventListener("change", setSCOTT5);
+   
+           function setSCOTT5() {
+
+               if (select5.value == "Errado") {
+                   alert("Errou!");
+                
+               } else if (select5.value == "Errado") {
+                   alert("Errou!");
+
+               } else if (select5.value == "Certo") {
+                   alert("Acertou!");
+               
+           }
+       }
+   </script>
+   <h1>Sexta noite</h1>
+   <p>Quem está dentro da lefty?</p>
+   <header id="FNAF6">
+   <select id="SCOTT6">
+     <option>Selecione a resposta</option> 
+     <option value="Certo">Puppet!</option>
+     <option value="Errado">Freddy!</option>
+     <option value="Errado">Ennard!</option>
+ </select>
+ <img id="SCOTT6" src="./img/Lefty.png">
+</header>
+     <script>
+         const select6 = document.getElementById("SCOTT6");
+         select6.addEventListener("change", setSCOTT6);
+ 
+         function setSCOTT6() {
+
+             if (select6.value == "Errado") {
+                 alert("Errou!");
+              
+             } else if (select6.value == "Errado") {
+                 alert("Errou!");
+
+             } else if (select6.value == "Certo") {
+                 alert("Acertou!");
+             
+         }
+     }
+   </script>
+   <h1>Setima noite</h1>
+   <p>Em qual porta o Bonnie aparece em FNAF4?</p>
+   <header id="FNAF7">
+   <select id="SCOTT7">
+     <option>Selecione a resposta</option> 
+     <option value="Certo">esquerda!</option>
+     <option value="Errado">direita!</option>
+     <option value="Errado">guarda-roupa!</option>
+ </select>
+ <img id="SCOTT7" src="./img/Nightmarebonnieextra.png">
+</header>
+     <script>
+         const select7 = document.getElementById("SCOTT7");
+         select7.addEventListener("change", setSCOTT7);
+ 
+         function setSCOTT7() {
+
+             if (select7.value == "Errado") {
+                 alert("Errou!");
+              
+             } else if (select7.value == "Errado") {
+                 alert("Errou!");
+
+             } else if (select7.value == "Certo") {
+                 alert("Acertou!");
+             
+         }
+     }
+    </script>
+    <h1>oitava noite</h1>
+    <p>Quem fez a mordida de 83?</p>
+    <header id="FNAF8">
+    <select id="SCOTT8">
+      <option>Selecione a resposta</option> 
+      <option value="Errado">Chica!</option>
+      <option value="Certo">Fredbear!</option>
+      <option value="Errado">Foxy!</option>
+  </select>
+  <img id="SCOTT8" src="./img/mordida83.png">
+ </header>
+      <script>
+          const select8 = document.getElementById("SCOTT8");
+          select8.addEventListener("change", setSCOTT8);
+  
+          function setSCOTT8() {
+ 
+              if (select8.value == "Errado") {
+                  alert("Errou!");
+               
+              } else if (select8.value == "Errado") {
+                  alert("Errou!");
+ 
+              } else if (select8.value == "Certo") {
+                  alert("Acertou!");
+              
+          }
+      }
+    </script>
+    <h1>nona noite</h1>
+    <p>Quantos livros tem FNAF?</p>
+    <header id="FNAF9">
+    <select id="SCOTT9">
+      <option>Selecione a resposta</option> 
+      <option value="Errado">6!</option>
+      <option value="Certo">3!</option>
+      <option value="Errado">2!</option>
+  </select>
+  <img id="SCOTT9" src="./img/livroFNAf.png">
+ </header>
+      <script>
+          const select9 = document.getElementById("SCOTT9");
+          select9.addEventListener("change", setSCOTT9);
+  
+          function setSCOTT9() {
+ 
+              if (select9.value == "Errado") {
+                  alert("Errou!");
+               
+              } else if (select9.value == "Errado") {
+                  alert("Errou!");
+ 
+              } else if (select9.value == "Certo") {
+                  alert("Acertou!");
+              
+          }
+      }
+    </script>
+    <h1>décima noite</h1>
+    <p>Quantos animatronics existem?</p>
+    <header id="FNAF10">
+    <select id="SCOTT10">
+      <option>Selecione a resposta</option> 
+      <option value="Certo">84!</option>
+      <option value="Errado">90!</option>
+      <option value="Errado">56!</option>
+  </select>
+  <img id="SCOTT10" src="./img/animatronics.png">
+ </header>
+      <script>
+          const select10 = document.getElementById("SCOTT10");
+          select10.addEventListener("change", setSCOTT10);
+  
+          function setSCOTT10() {
+ 
+              if (select10.value == "Errado") {
+                  alert("Errou!");
+               
+              } else if (select10.value == "Errado") {
+                  alert("Errou!");
+ 
+              } else if (select10.value == "Certo") {
+                  alert("Acertou!");
+
+          }
+      }
+    </script>
+    <h1>resultado</h1>
+    <p>confira seus resultados!</p>
+
+    <div>
+        <button id="verificarResultado"> Verificar Resultado</button>
+        <p id="result"></p>
+    </div>
+
+    <script type="text/javascript" scr="./js/QUIZ.js"></script>
+
+</body>
+
+</html>
